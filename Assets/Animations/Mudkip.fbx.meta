@@ -8,50 +8,50 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u5C3E\u5DF4"
-    second: {fileID: 2800000, guid: a75c2adfd9c919e4da1615db55046a8b, type: 3}
+    second: {fileID: 2800000, guid: abd8b4ab0baeeeb429e07581429cff2f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u6A58"
-    second: {fileID: 2800000, guid: 50cf5daa4717809438327a2e823bbaab, type: 3}
+    second: {fileID: 2800000, guid: ae8d50a1c51611f458b6337de1d2bba2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u773C\u775B"
-    second: {fileID: 2800000, guid: 1ff17531c52c249408d7a82a3c055116, type: 3}
+    second: {fileID: 2800000, guid: 2e00492928e0ed64d94d039ed852f4e0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u809A\u5B50"
-    second: {fileID: 2800000, guid: bebb999241b7e7f45899c4d01bcff1a9, type: 3}
+    second: {fileID: 2800000, guid: 9727acbfa6d31c844af88e083e2f3102, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u81C9"
-    second: {fileID: 2800000, guid: 175be27fdc406cf41ab47a5d5b2f112a, type: 3}
+    second: {fileID: 2800000, guid: c0c447dafc79e9548bc8ecc3b6cf8bd8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u81C9 22"
-    second: {fileID: 2800000, guid: 8601c4ebd9bb943498ecd94712849746, type: 3}
+    second: {fileID: 2800000, guid: d18ebf5c89fd850428fcde7e71f0da11, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u85CD"
-    second: {fileID: 2800000, guid: 6caf1737be52a494ba4ede675de28584, type: 3}
+    second: {fileID: 2800000, guid: de00a9ed9f38f6546bd877e967374796, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u6C34\u8E8D\u9B5A \u982D\u89D2"
-    second: {fileID: 2800000, guid: f4186d6106339d044bdc2b311466f34c, type: 3}
+    second: {fileID: 2800000, guid: 895fd2c2dfc23eb4384db4f8a06484ae, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "\u706B\u96C9\u96DE \u8EAB\u9AD4\u6A58"
-    second: {fileID: 2800000, guid: 01c50110aca45154aa4f9869bb669bef, type: 3}
+    second: {fileID: 2800000, guid: e67d9a7c55761644e8613f42a8aaf9b9, type: 3}
   materials:
     materialImportMode: 2
-    materialName: 0
+    materialName: 1
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -105,7 +105,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Attack
+      name: AttackM
       takeName: Scene
       internalID: -1609281748187839663
       firstFrame: 29
