@@ -25,16 +25,28 @@ public class BattleMAnager : MonoBehaviour
     public void RemoveFighter(Fighter fighter)
     {
         _fighters.Remove(fighter);
-        StopCoroutine(_battleCoroutine);
+        if (_battleCoroutine != null)
+        {
+            StopCoroutine(_battleCoroutine);
+        }
+    }
+    private void InitializeFighters()
+    {
+        foreach (var fighter in _fighters)
+        {
+            fighter.InitializeFighter();
+        }
+        
     }
     public void StartBattle()
     {
-        _battleCoroutine = StartCoroutine(BattleCoroutine());
+            InitializeFighters();
+            _battleCoroutine = StartCoroutine(BattleCoroutine());
     }
     private IEnumerator BattleCoroutine()
     {
         _onBattleStarted?.Invoke();
-        while (_fighters.Count != _fightersNeededToStart)
+        while (_fighters.Count > 1)
         {
             Fighter attacker = _fighters[Random.Range(0, _fighters.Count)];
             Fighter defender = _fighters[Random.Range(0, _fighters.Count)];
